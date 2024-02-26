@@ -1,0 +1,212 @@
+* {
+    box-sizing: border-box;    
+    margin: 0;
+    padding: 0;
+
+}
+body {
+    background-color: #D8CCBE;
+}
+
+    /* Inicio Menu. Area de butões de navegação*/
+
+.links .active {
+    background-color: #756f5f;
+}
+.container {
+    max-width: 1140px;
+    margin: auto;
+}
+.links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.links a {
+    font-size: 30px;
+    border: 1px solid black;
+    padding: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 30px;
+    text-decoration: none;
+    border-radius: 4px;
+    color: #fff;
+    background-color: #4A463C;
+    box-shadow: 1px 1px 7px black ;
+}
+.links a:hover {
+    background-color: #756f5f;
+    color: #fff;
+}
+
+    /* Fim Menu de navegação */
+    
+/* ------------------------------ Linha divisória em baixo do menu -------------------- */
+.line {                     
+    border: 0.5px solid #4d3903;
+    margin-top: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+/* ------------------------------ Linha divisória em baixo do menu -------------------- */
+
+
+    /*Inicio da Pagina "Sobre Mim" */
+
+.perfil {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+.nome {
+    font-size: 55px;
+}
+.nome span {
+    font-weight: bold;
+}
+.idade {
+    font-size: 35px;
+    margin-top: 10px;
+}
+.cabecalho {
+    display: flex;
+    justify-content: space-around;
+}
+.foto-perfil {
+    background-image: url(./Pedro\ Henrique.png);
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+    width: 300px;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+.desc {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+.desc h2 { 
+    font-size: 33px;
+    margin-top: 20px;
+}
+.desc a {
+    text-decoration: none;
+}
+.desc p {
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+    /*FIM da Pagina "Sobre Mim" */
+
+    /* INICIO Das minhas Formações */
+
+.conteudo-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.conteudo-main .lista{
+    font-size: 20px;
+    margin-top: 40px;
+}
+.conteudo-main .lista li{
+    list-style-type: none;
+    margin-top: 6px;
+}
+.conteudo-main .lista h1 {
+    margin-bottom: 20px;
+}
+
+    /* FIM Das minhas Formações */
+
+    /* INICIO Da minha área de contatos */ 
+.flex {
+    padding: 20px;
+    border-radius: 7px;
+    background-color: #e0e0e0;
+    margin-top: 100px;
+}
+form {
+    margin-top: 20px;
+}
+input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #000000;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: #eeeeee;
+}
+label {
+    margin: 7px;
+    font-size: 20px;
+}
+textarea {
+    height: 150px;
+    width: 100%;
+    margin-bottom: 5px;
+    background-color: #eeeeee;
+    resize: none;
+}
+button {
+    width: 100%;
+    background-color: #756f5f;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.area {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+    /* FIM Da minha área de contatos */ 
+
+    /* INICIO CSS DO PORTIFOLIO */
+
+
+.conteudo-main2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+.lista2 li{
+    font-size: 30px;
+    list-style-type: none;
+    margin: 20px;
+    color: #000;
+    text-decoration: none;
+}
+.lista2 a {
+    text-decoration: none;
+}
+.lista2 h1{
+    text-align: center;margin-bottom: 15px;
+    font-size: 55px;
+    margin-bottom: 20px;
+}
+#git {
+    display: inline-block;
+    font-size: 20px;
+    margin-top: 100px;
+    margin-left: 350px;
+}
+#git a {
+    text-decoration: none;
+    color: #000;
+}
+
+  /* FIM CSS DO PORTIFOLIO */
+
